@@ -120,12 +120,6 @@ header .logo img {
     width: 100%;
 }
 
-.navbar li:nth-child(1),
-.navbar li:nth-child(2),
-.navbar li:nth-child(3) {
-    display: none;
-}
-
 #menu-icon {
     font-size: 24px;
     cursor: pointer;
@@ -144,6 +138,12 @@ header .logo img {
 
 .btn:hover {
     background: #E7161E;
+}
+
+.navbar li:nth-child(1),
+.navbar li:nth-child(2),
+.navbar li:nth-child(3) {
+    display: none;
 }
 
 body {
